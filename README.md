@@ -19,16 +19,13 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourname/comfyui-xdesign-nodes.git
+git clone https://github.com/Samsany/comfyui-xdesign-nodes.git
 
 # 进入插件目录
 cd comfyui-xdesign-nodes
 
 # 放置到 ComfyUI 的 custom_nodes 目录下
 cp -r comfyui-xdesign-nodes /path/to/comfyui/custom_nodes/
-
-# 查看 README 和节点说明
-cat README.md
 ```
 
 ---
@@ -79,19 +76,10 @@ cat README.md
 ```
 comfyui-xdesign-nodes/
 ├── __init__.py
-├── loaders.py                # 图像/遮罩 加载节点实现
+├── modules              # 图像/遮罩 加载节点实现
 ├── README.md
 └── ...（更多扩展）
 ```
-
----
-
-## 🎯 TODO  
-
-- 📂 LoadImageFromLocalFile 本地图片加载节点  
-- 🎛️ ImagePreprocess 节点（resize、crop、blur 支持）  
-- 🔀 ImageToBase64 / Base64ToImage 转换节点  
-- 🖼️ LoadMaskFromLocalFile 节点  
 
 ---
 
@@ -99,8 +87,8 @@ comfyui-xdesign-nodes/
 
 如果你有建议、问题或合作意向，欢迎联系我：
 
-- 📧 Email: yourname@example.com  
-- 🌐 GitHub: [yourname](https://github.com/yourname)  
+- 📧 Email: samphsanie@gmial.com  
+- 🌐 GitHub: [Samsany](https://github.com/Samsany)  
 
 ---
 
